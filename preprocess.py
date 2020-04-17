@@ -16,8 +16,9 @@ import os
 import re
 import string
 
-
-dataset_path='/ES_Final/Data/'
+#Use the pickle files provided as the dataset is very large.
+#You can download the dataset from https://ai.stanford.edu/~amaas/data/sentiment/
+dataset_path='/ZachFitzgerald_ES_Final_Sent/Model/Data/'
 
 def extract_words(sentences):
     result = []
